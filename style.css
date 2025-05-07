@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(63, 199, 253);
+}
+
+div {
+    position: relative;
+    background-color: white;
+    width: 80vw;
+    height: 80vw;
+    border-radius: 10px;
+    margin-top: 5vh;
+    margin-left: 15vh;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    
+}
