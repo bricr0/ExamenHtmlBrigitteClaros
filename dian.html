@@ -15,13 +15,13 @@
             position: relative;
             background-color: white;
             width: 80vw;
-            height: 400vw;
+            height: 220vw;
             border-radius: 10px;
             margin-top: 5vh;
             margin-left: 15vh;
         }
 
-        header {
+        .hola {
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -133,11 +133,83 @@
             justify-content: left;
         }
 
+        .mimi {
+            width: 10vw;
+        }
+
+        .holi {
+            display: flex;
+            flex-direction: row;
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif, monospace;
+        }
+
+        .own {
+
+            text-align: left;      
+        }
+
+        .tuo {
+            text-align: center;    
+        }
+
+        .tri {
+            text-align: right;
+        }
+
+        @media (max-width:430px){
+            .principal {
+            position: relative;
+            background-color: white;
+            width: 150vw;
+            height: 920vw;
+            border-radius: 10px;
+            margin-top: 5vh;
+            margin-left: 15vh;
+        }
+
+        .two {
+            display: grid;
+            grid-column: 2;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            align-items: left;
+            margin-top: 5vw;
+            width: 50vw;
+            height: 30vw;
+            margin-left: 20vh;
+            
+        } 
+
+
+        .cuatro {
+            display: grid;
+            grid-column: 2;
+            width: 18vw;
+            margin-left: 15vh;
+            align-items: center;
+            font-size: 2pc;
+        }
+
+
+        .seis {
+            display: grid;
+            left: 3vw;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            flex-wrap: wrap;
+            bottom: 58vh;
+            width: 70vw;
+            margin-left: 3vw;
+            justify-content: left;
+        }
+        }
+
     </style>
 </head>
 <body>
     <div class="principal">
-        <header>
+        <header class="hola">
                <p> Estudio de usuarios para el aplicativo web de la entidad </p>
                 <img class="primera" src="img/2560px-Dian_(Colombia)_logo.svg.png">
                <p> En esta parte del ejercicio, vamos a hacer un estudio de usuario, por el cual se realizaran 3 arquetipos/historia de usuario basados en la problematica presentada por la empresa </p>
@@ -211,9 +283,22 @@
                     <p class="sombra">Quiere hacer todo el tramite de manera remota, para protegerse de salud y aprender el sistema en linea de la DIAN</p>
             </section>
         </div>
-        <div class="four">
+        <div class="hola">
             <p>Al analizar estos tipos de usuarios se puede extraer las siguientes caracteristicas:</p>
-            <p></p>
+            <p>Los cargos que ejercen son diversos y en diferentes campos laborales</p>
+            <p>Tienen dificultad en manejar la pagina que provee la  <img class="mimi" src="img/2560px-Dian_(Colombia)_logo.svg.png"></p>
+            <p>Con estos 3 arquetipos/historias de usuario se puede establecer un alcance y estrategia, donde se podra condensar lo obtenido anteriormente</p>
+            <p>Estrategia</p>
+            <p><img class="mimi" src="img/2560px-Dian_(Colombia)_logo.svg.png"> tiene como objetivo brindar un servicio de tramitologia online,en el cual el usuario pueda realizar cualquier tipo de solicitud de una manera intutiva, rapida y facil</p>
+            <p>Alcace</p>
+            <p>El usuario tendra la capacidad de</p>
+        </div>
+        <div class="holi">
+            <p class="own">Acceder a la plataforma de servicios</p>
+            <p class="own">Leer los requerimientos de los servicios disponibles</p><br>
+            <p class="tuo">Ver Tramites disponibles</p>
+            <p class="tuo">Consultar Informacion del RUT</p>
+            <p class="tri">Trasladarse al MUISCA al tramite necesario</p>
         </div>
     </div>
     
