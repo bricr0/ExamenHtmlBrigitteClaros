@@ -1,21 +1,198 @@
 body {
     background-color: rgb(63, 199, 253);
+    overflow-x: hidden;
 }
 
-div {
+.principal {
     position: relative;
     background-color: white;
     width: 80vw;
-    height: 80vw;
+    height: 220vw;
     border-radius: 10px;
     margin-top: 5vh;
     margin-left: 15vh;
 }
 
-header {
+.hola {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 30px;
+    padding-inline: 30px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif, monospace;
+}
+
+.primera {
     padding: 10px;
+}
+
+.andres {
+    display: grid;
+    grid-template-columns: 25%;
+    grid-template-rows: 10px, 60px;
+}
+
+.one {
+    display: grid;
+    grid-column: 1;
+    width: 17vw;
+    margin-left: 4vh;
+    align-items: center;
+    font-size: 2pc;
+}
+
+.one {
+    text-align: center;
+}
+
+.segunda {
+    width: 30vh;
+}
+
+.dos {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: rgb(70, 190, 226);
+    text-align: center;
+}
+
+.two {
+    display: grid;
+    grid-column: 2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    align-items: left;
+    margin-top: 5vw;
+    width: 50vw;
+    height: 30vw;
     
+} 
+
+.sombra {
+    text-decoration: underline rgb(172, 169, 169);
+}
+
+.tres {
+    display: grid;
+    left: 3vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    flex-wrap: wrap;
+    bottom: 58vh;
+    width: 80vw;
+    margin-left: 3vw;
+    justify-content: left;
+}
+
+.camila {
+    display: grid;
+    grid-template-columns: 35%;
+    grid-template-rows: 10px, 60px;
+}
+
+.cuatro {
+    display: grid;
+    grid-column: 2;
+    width: 18vw;
+    margin-left: 65vh;
+    align-items: center;
+    font-size: 2pc;
+}
+
+.cinco {
+    display: grid;
+    grid-column: 1;
+    grid-row: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    align-items: left;
+    margin-top: 5vw;
+    width: 50vw;
+    height: 30vw;
+    margin-left: 3vw;
+}
+
+.seis {
+    display: grid;
+    left: 3vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    flex-wrap: wrap;
+    bottom: 58vh;
+    width: 70vw;
+    margin-left: 3vw;
+    justify-content: left;
+}
+
+.mimi {
+    width: 10vw;
+}
+
+.holi {
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif, monospace;
+}
+
+.own {
+
+    text-align: left;      
+}
+
+.tuo {
+    text-align: center;    
+}
+
+.tri {
+    text-align: right;
+}
+
+@media (max-width:430px){
+    .principal {
+    position: relative;
+    background-color: white;
+    width: 150vw;
+    height: 920vw;
+    border-radius: 10px;
+    margin-top: 5vh;
+    margin-left: 15vh;
+}
+
+.two {
+    display: grid;
+    grid-column: 2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    align-items: left;
+    margin-top: 5vw;
+    width: 50vw;
+    height: 30vw;
+    margin-left: 20vh;
+    
+} 
+
+
+.cuatro {
+    display: grid;
+    grid-column: 2;
+    width: 18vw;
+    margin-left: 15vh;
+    align-items: center;
+    font-size: 2pc;
+}
+
+
+.seis {
+    display: grid;
+    left: 3vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    flex-wrap: wrap;
+    bottom: 58vh;
+    width: 70vw;
+    margin-left: 3vw;
+    justify-content: left;
+}
 }
